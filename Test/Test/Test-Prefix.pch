@@ -1,0 +1,16 @@
+//
+//  Test-Prefix.pch
+//  Test
+//
+//  Created by Robin on 11/23/15.
+//  Copyright © 2015 Robin. All rights reserved.
+//
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <CoreText/CoreText.h>
+
+#import "DTCoreText.h"
+
+#endif
